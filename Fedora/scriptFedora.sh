@@ -63,8 +63,8 @@ sudo dnf upgrade -y
 echo "Etapa 3 - Instalando Flatpaks"
 
 sudo flatpak install flathub com.microsoft.Edge -y
-sudo install com.termius.Termius -y
-sudo install com.spotify.Client -y
+sudo flatpak install flathub com.termius.Termius -y
+sudo flatpak install flathub com.spotify.Client -y
 
 echo "Etapa 4 - Instalando DNF"
 
