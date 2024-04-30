@@ -68,7 +68,7 @@ sudo flatpak install flathub com.spotify.Client -y
 
 echo "Etapa 4 - Instalando DNF"
 
-sudo install dnf zsh nvim git make pip npm nodejs cargo ripgrep -y
+sudo dnf install zsh nvim git make pip npm nodejs cargo ripgrep -y 
 
 echo "Etapa 5 - Instalando e configurando powerlevel10k"
 echo "5.1 - Oh-My-Zsh"
